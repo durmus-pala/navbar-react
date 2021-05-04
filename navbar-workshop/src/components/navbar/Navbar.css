@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(0, 173, 180) !important;
+}
+
+.main-bar{
+    background-color: rgb(208, 234, 235) !important
+}
+
+span {
+    color: blue;
+}
+
+.nav-item:hover{
+    color: rgb(0, 173, 180) !important;
+}
+
+.nav-item {
+    color: rgb(6, 49, 51) !important;
+}
+
+
+.navbar-toggler{
+    border: none;
+    
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%286, 49, 51, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .nav-item {
+        margin: auto;
+    }
+    
+}
